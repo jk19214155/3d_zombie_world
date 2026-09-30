@@ -21,8 +21,8 @@
 
 需要两个文件：
 
-- [Melange 电脑键位版 APK](Melange_3D生化启示录_电脑键位版.apk)
-- [游戏导入包：高血量／本地计费成功](Melange导入包_修改版_高血量_本地计费成功.zip)
+- [Melange 电脑键位版 APK](android/Melange_3D生化启示录_电脑键位版.apk)
+- [游戏导入包：高血量／本地计费成功](android/Melange导入包_修改版_高血量_本地计费成功.zip)
 
 1. 在手机上安装 APK；如果系统询问文件访问权限，请允许。
 2. 解压游戏导入包，把其中的 **MelangeBREW** 文件夹放到手机的 **内部存储最外层**，与 `Download`、`DCIM` 等文件夹同一级。

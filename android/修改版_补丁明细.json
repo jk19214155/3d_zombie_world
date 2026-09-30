@@ -1,0 +1,25 @@
+{
+  "hp": 1048576,
+  "success_code": 2100,
+  "original_bin_sha256": "5d848f9d67594d76c1e93bee76fa79f12be3f526f84aa68a125424534bbf29af",
+  "patches": [
+    {
+      "offset": "0x14bdc",
+      "before": "7c402de90150a0e10040b0e10000551300005213000053130100a0032500000a0400a0e1a2ffffeb000050e30d00a0132000001a0c2184e538619fe5",
+      "after": "10402de908d04de20c2180e5103180e50040a0e1021ba0e3341081e20020a0e30030a0e300308de504308de52f3400eb0000a0e308d08de21080bde8",
+      "purpose": "ISMSBilling entry: queue existing success callback (2100), no transport"
+    },
+    {
+      "offset": "0x16a6c",
+      "before": "3260a0e3",
+      "after": "0166a0e3",
+      "purpose": "HP maximum and initial HP: 50 -> 1048576"
+    },
+    {
+      "offset": "0x174f4",
+      "before": "0c0096e5",
+      "after": "0106a0e3",
+      "purpose": "HP restored from save: set 1048576"
+    }
+  ]
+}
